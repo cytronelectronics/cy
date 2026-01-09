@@ -1,0 +1,283 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>無標題文件</title>
+<link href="22.css" rel="stylesheet" type="text/css">
+	<script src="33.js" defer></script>
+</head>
+
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar" role="banner">
+        <nav class="nav-container" role="navigation" aria-label="Main navigation">
+            <!-- Logo/Brand -->
+            <div class="nav-brand">
+              <a href="#" class="brand-link" aria-label="Go to homepage">
+              
+                        <path d="M8 12h16v2H8v-2zm0 4h16v2H8v-2zm0 4h10v2H8v-2z" fill="white"/>
+               </svg>
+              </a><a href="#" class="brand-link" aria-label="Go to homepage"><img src="untitled.png" width="108" height="55"></a></div>
+
+            <!-- Mobile Menu Toggle -->
+            <button 
+                class="nav-toggle" 
+                type="button"
+                aria-expanded="false"
+                aria-controls="nav-menu"
+                aria-label="Toggle navigation menu"
+            >
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+                <span class="hamburger-line"></span>
+            </button>            <!-- Navigation Menu -->
+            <div class="nav-menu" id="nav-menu">                <ul class="nav-list" role="menubar">
+                    <li class="nav-item" role="none">
+                        <a href="#home" class="nav-link" role="menuitem">Home</a>
+                    <span class="nav-brand"><a href="#" class="brand-link" aria-label="Go to homepage"></a></span></li>
+                    <li class="nav-item nav-item--dropdown" role="none">
+                        <button 
+                            class="nav-link nav-dropdown-toggle" 
+                            type="button"
+                            role="menuitem"
+                            aria-expanded="false"
+                            aria-haspopup="true"
+                            aria-controls="services-submenu"
+                        >
+                            Services
+                            <svg class="dropdown-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path d="M4 6L8 10L12 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                        <ul class="nav-submenu" id="services-submenu" role="menu" aria-label="Services submenu">
+                            <li role="none">
+                                <a href="#services" class="submenu-link" role="menuitem">W Development</a>
+                            </li>
+                            <li role="none">
+                                <a href="#services" class="submenu-link" role="menuitem">UI/UX Design</a>
+                            </li>
+                            <li role="none">
+                                <a href="#services" class="submenu-link" role="menuitem">Digital Marketing</a>
+                            </li>
+                            <li role="none">
+                                <a href="#services" class="submenu-link" role="menuitem">Consulting</a>
+                            </li>
+							<li role="none">
+                                <a href="#services" class="submenu-link" role="menuitem">叔匪</a>  </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="#portfolio" class="nav-link" role="menuitem">Portfolio</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="#about" class="nav-link" role="menuitem">About</a>
+                    </li>
+                    <li class="nav-item" role="none">
+                        <a href="#contact" class="nav-link" role="menuitem">Contact</a>
+                    </li>
+                </ul>                <!-- Call-to-Action Button -->
+                <div class="nav-cta">
+                    <a href="#contact" class="cta-button" role="button">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M6 3L11 8L6 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                  </a>
+              </div>
+          </div>
+
+            <!-- Overlay for mobile -->
+            <div class="nav-overlay" aria-hidden="true"></div>
+        </nav>
+    </header>    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <!--<h1>Premium Navigation Bar</h1>-->
+                <p><a href="#" class="brand-link" aria-label="Go to homepage"><a href="#" class="brand-link" aria-label="Go to homepage"><img src="untitled.png" width="108" height="55"></a></a></p>
+                <p>A sophisticated, responsive navigation component with dark theme, smooth animations, and premium design aesthetics.</p>
+                
+                <div class="feature-grid">
+                    <div class="feature">
+                        <h3>&nbsp;</h3>
+                        <p>Modern dark theme with gradient backgrounds and glowing effects</p>
+                  </div>
+                    <div class="feature">
+                        <h3>✨✨✨ Shiny Effects</h3>
+                        <p>Premium shine animations and glow effects for enhanced visual appeal</p>
+                    </div>
+                    <div class="feature">
+                        <h3>⚡ Smooth Animations</h3>
+                        <p>60fps animations with cubic-bezier transitions for premium feel</p>
+                    </div>
+                    <div class="feature">
+                        <h3>♿ Accessible</h3>
+                        <p>Keyboard navigable with proper ARIA labels and semantic markup</p>
+                    </div>
+                </div>
+          </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="content-section">
+            <div class="container">
+                <h2>Our Services</h2>
+                <p>We offer comprehensive digital solutions tailored to your business needs.</p>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">💻</div>
+                        <h3>Web Development</h3>
+                        <p>Modern, responsive websites built with cutting-edge technologies and best practices.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🎨</div>
+                        <h3>UI/UX Design</h3>
+                        <p>Intuitive user interfaces and engaging user experiences that convert visitors to customers.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📱</div>
+                        <h3>Digital Marketing</h3>
+                        <p>Strategic digital marketing campaigns to boost your online presence and reach.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🚀</div>
+                        <h3>Consulting</h3>
+                        <p>Expert guidance on digital transformation and technology strategy for your business.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="content-section">
+            <div class="container">
+                <h2>Our Portfolio</h2>
+                <p>Showcasing our latest projects and creative solutions.</p>
+                
+                <div class="portfolio-grid">
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image">Project 1</div>
+                        </div>
+                        <h3>E-commerce Platform</h3>
+                        <p>A modern online store with advanced features and seamless user experience.</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image">Project 2</div>
+                        </div>
+                        <h3>Corporate Website</h3>
+                        <p>Professional business website with CMS integration and responsive design.</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image">Project 3</div>
+                        </div>
+                        <h3>Mobile App</h3>
+                        <p>Cross-platform mobile application with native performance and smooth animations.</p>
+                    </div>
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <div class="placeholder-image">Project 4</div>
+                        </div>
+                        <h3>Dashboard UI</h3>
+                        <p>Data visualization dashboard with real-time updates and interactive charts.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="content-section">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>We are a team of passionate developers and designers creating exceptional digital experiences.</p>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Our Mission</h3>
+                        <p>To deliver cutting-edge digital solutions that help businesses thrive in the modern digital landscape. We combine creativity with technical expertise to create memorable user experiences.</p>
+                        
+                        <h3>Our Values</h3>
+                        <ul>
+                            <li>Innovation in every project</li>
+                            <li>Quality without compromise</li>
+                            <li>Client satisfaction first</li>
+                            <li>Continuous learning and improvement</li>
+                        </ul>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h4>50+</h4>
+                            <p>Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h4>30+</h4>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat">
+                            <h4>5+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h4>24/7</h4>
+                            <p>Support Available</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="content-section">
+            <div class="container">
+                <h2>Get In Touch</h2>
+                <p>Ready to start your next project? Let's discuss how we can help bring your ideas to life.</p>
+                
+                <div class="contact-content">
+                    <div class="contact-form">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Send Message</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <h3>📧 Email</h3>
+                            <p>hello@premiumnavbar.com</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>📞 Phone</h3>
+                            <p>+1 (555) 123-4567</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>📍 Location</h3>
+                            <p>123 Business Ave<br>Suite 100<br>City, State 12345</p>
+                        </div>
+                        <div class="info-item">
+                            <h3>🕒 Hours</h3>
+                            <p>Mon - Fri: 9:00 AM - 6:00 PM<br>Sat - Sun: By appointment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
