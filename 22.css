@@ -1,4 +1,5 @@
 @charset "utf-8";
+@charset "utf-8";
 /* CSS Document */
 /* =============================================
    CSS CUSTOM PROPERTIES (Enhanced Dark Theme)
@@ -94,6 +95,15 @@
   margin: 0;
   padding: 0;
 }
+.Product {
+    width: 800px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    color: #F46668;
+}
+
 
 html {
   line-height: 1.5;
@@ -279,12 +289,13 @@ body {
 }
 
 .nav-list {
-  display: flex;
-  align-items: center;
-  gap: var(--spacing-lg);
-  list-style: none;
-  margin: 0;
-  padding: 0;
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-lg);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #F3EAEA;
 }
 
 .nav-item {
@@ -327,10 +338,10 @@ body {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--text-color);
-  background: rgba(102, 126, 234, 0.1);
-  box-shadow: var(--shadow-glow);
-  transform: translateY(-2px);
+    color: #E5E2E2;
+    background: rgba(102, 126, 234, 0.1);
+    box-shadow: var(--shadow-glow);
+    transform: translateY(-2px);
 }
 
 .nav-link:hover::before,
@@ -771,9 +782,9 @@ body {
 }
 
 .feature p {
-  color: var(--text-secondary);
-  position: relative;
-  z-index: 1;
+    color: #EFE7E8;
+    position: relative;
+    z-index: 1;
 }
 
 .content-section {
@@ -863,10 +874,10 @@ body {
 }
 
 .service-card p {
-  color: var(--text-muted);
-  line-height: 1.6;
-  position: relative;
-  z-index: 1;
+    color: #E8E2E2;
+    line-height: 1.6;
+    position: relative;
+    z-index: 1;
 }
 
 /* Portfolio Section */
@@ -911,10 +922,11 @@ body {
 }
 
 .portfolio-item h3 {
-  padding: var(--spacing-lg) var(--spacing-lg) var(--spacing-sm);
-  color: var(--text-color);
-  font-weight: var(--font-weight-semibold);
-  margin: 0;
+    padding: var(--spacing-lg) var(--spacing-lg) var(--spacing-sm);
+    color: #E1DCDC;
+    font-weight: var(--font-weight-semibold);
+    margin: 0;
+    text-align: left;
 }
 
 .portfolio-item p {
@@ -934,10 +946,11 @@ body {
 }
 
 .about-text h3 {
-  color: var(--text-color);
-  font-weight: var(--font-weight-semibold);
-  margin-bottom: var(--spacing-md);
-  font-size: var(--font-size-lg);
+    color: #E1DCDC;
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: var(--spacing-md);
+    font-size: var(--font-size-lg);
+    text-align: justify;
 }
 
 .about-text p {
@@ -952,10 +965,10 @@ body {
 }
 
 .about-text li {
-  color: var(--text-muted);
-  padding: var(--spacing-sm) 0;
-  position: relative;
-  padding-left: var(--spacing-lg);
+    color: #E1DCDC;
+    padding: var(--spacing-sm) 0;
+    position: relative;
+    padding-left: var(--spacing-lg);
 }
 
 .about-text li::before {
@@ -1190,5 +1203,3 @@ body {
     outline-offset: 2px;
   }
 }
-
-
